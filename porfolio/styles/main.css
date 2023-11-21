@@ -79,6 +79,11 @@ a:hover{
 .img-me{
     max-width: 100%;
     border: 2px solid black;
+    transition: all 0.5s ease-in-out;
+}
+
+.img-me:hover{
+    transform: scale(1.1);
 }
 
 .descripcion{
@@ -89,6 +94,7 @@ a:hover{
     background: white;
     align-self: center;
     border: 2px solid black;
+    transition: all 0.5s ease-in-out;
 }
 
 .descripcion p{
@@ -102,6 +108,10 @@ a:hover{
     font-family: 'Lato', sans-serif;
 }
 
+.descripcion:hover{
+    transform: translate(0, -15px);
+}
+
 .obj{
     grid-column: 1/4;
     grid-row: 2/3;
@@ -111,10 +121,15 @@ a:hover{
     background: white;
     align-self: center;
     border: 2px solid black;
+    transition: all 0.5s ease-in-out;
 }
 
 .obj-p{
     font-size: 2rem;
+}
+
+.obj:hover{
+    transform: translate(0, -15px);
 }
 
 .code{
@@ -126,6 +141,11 @@ a:hover{
 
 .img-code{
     height: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.img-code:hover{
+    transform: scale(1.1);
+    border: 2px solid black;
 }
 /* finish main home */
 /* Start main experience and skills */
@@ -179,4 +199,7 @@ footer{
 }
 .mail{
     color:  #619ab1;
+}
+.siteplan{
+    color: #619ab1;
 }
