@@ -1,7 +1,6 @@
-/* My reset */
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 
+/* My reset */
 *{
     margin: 0;
     padding: 0;
@@ -162,20 +161,26 @@ a:hover{
 }
 
 .puro-sabor{
-    grid-column: 2/4;
+    grid-column: 1/4;
     margin: 1rem;
     padding: 1rem;
     background-color: white;
     border: 2px solid black;
 }
 
-.p-puro-sabor{
+.h2-puro-sabor{
+    text-align: center;
     font-family:'Lora', serif;
     font-size: 1.5rem;
 }
 
+.p-puro-sabor{
+    font-family:'Lora', serif;
+    font-size: 1.8rem;
+}
+
 .a-puro-sabor{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-family:'Lora', serif;
     color: black;
 }
@@ -183,6 +188,84 @@ a:hover{
 .img-center{
     grid-column: 4/6;
     margin: 1rem;
+    transition: all 1s ease-in-out;
+}
+
+.img-center:hover{
+    transform: translate(0,250px)
+}
+
+.Rafting-website{
+    grid-column: 6/8;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.h2-Rafting-website{
+    text-align: center;
+    font-family:'Lora', serif;
+    font-size: 1.5rem;
+}
+
+.p-Rafting-website{
+    font-family:'Lora', serif;
+    font-size: 1.5rem;
+}
+
+.a-Rafting-website{
+    font-size: 1.2rem;
+    font-family:'Lora', serif;
+    color: black;
+}
+
+.experience{
+    grid-column: 1/4;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border: 2px solid black;
+    transition: all 1s ease-in-out;
+}
+
+.experience:hover{
+    transform: translate(250px, 0)
+}
+
+.p-experience{
+    font-family:'Lora', serif;
+    font-size: 1.5rem;
+}
+
+.h2-experience{
+    text-align: center;
+    font-family:'Lora', serif;
+    font-size: 1.5rem;
+}
+
+.skills{
+    grid-column: 6/8;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border: 2px solid black;
+    transition: all 1s ease-in-out;
+}
+
+.skills:hover{
+    transform: translate(-250px, 0)
+}
+
+.h2-skills{
+    text-align: center;
+    font-family:'Lora', serif;
+    font-size: 1.5rem;
+}
+
+.p-skills{
+    font-family:'Lora', serif;
+    font-size: 1.4rem;
 }
 
 footer{
