@@ -73,17 +73,43 @@ a:hover{
 .me{
     grid-column: 2/4;
     padding: 1rem;
+    position: relative;
+    width: 100%;
 }
 
 .img-me{
+    display: block;
     max-width: 100%;
-    border: 2px solid black;
-    transition: all 0.5s ease-in-out;
 }
-
-.img-me:hover{
-    transform: scale(1.1);
-}
+.overlay {
+    position: absolute;
+    top: 10px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    background-color: #2e4958;
+  }
+  
+  .me:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    font-family:'Lato', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 .descripcion{
     grid-column: 4/8;
