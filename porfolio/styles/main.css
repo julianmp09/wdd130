@@ -293,6 +293,73 @@ a:hover{
     font-family:'Lora', serif;
     font-size: 1.4rem;
 }
+/* End experience and skills */
+/* Start college */
+
+.home-grid-2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    background-color: #619ab1;
+}
+
+.img-python{
+    grid-column: 1/3;
+}
+
+.python-code{
+    height: 100%;
+}
+
+.information-byu-i{
+    grid-column: 3/5;
+    align-self: center;
+    background-color: white;
+    font-family:'Lora', serif;
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin: 1rem;
+    border: 3px solid black;
+    transition: all 0.8s ease-in-out;
+}
+.information-byu-i:hover{
+    transform: translate(-250px, 0);
+    font-size: 1.5rem;
+}
+.campus-byu-i{
+    grid-column: 1/5;
+    width: 100%;
+}
+.campus-byu-i-img{
+    width: 100%;
+    height: 500px;
+}
+
+.coderhouse{
+    grid-column: 1/3;
+    width: 100%;
+}
+
+.coderhouse-2{
+    width: 100%;
+    height: 100%;
+}
+
+.information-coderhouse{
+    grid-column: 3/4;
+    align-self: center;
+    background-color: white;
+    font-family:'Lora', serif;
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin: 1rem;
+    border: 3px solid black;
+    transition: all 0.8s ease-in-out;
+}
+
+.information-coderhouse:hover{
+    transform: scale(1.4);
+}
 
 footer{
     display: flex;
